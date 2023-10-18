@@ -1,7 +1,21 @@
 import React from "react";
+import { Header, About, Footer, Testimonial, Skills, Work } from "./container";
+
+import { Navbar } from "./components";
+
+import "./app.scss";
 
 const app = () => {
-  return <div>app</div>;
+  return (
+    <div className="app">
+      <Header />
+      <About />
+      <Footer />
+      <Testimonial />
+      <Skills />
+      <Work />
+    </div>
+  );
 };
 
 export default app;
