@@ -5,10 +5,10 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'my-portfolio',
+  title: 'jsm_portfolio',
 
-  projectId: 'qu097vf3',
-  dataset: 'portfolio',
+  projectId: 'nabr04ca',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 
