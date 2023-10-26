@@ -17,6 +17,7 @@ const Skills = () => {
     const skillsQuery = '*[_type=="skills"]';
       client.fetch(query)
       .then((data)=>{
+        console.log(data)
         setExperience(data)
       })
       client.fetch(skillsQuery)
@@ -44,7 +45,33 @@ const Skills = () => {
                 <p className="p-text">{skill.name}</p>
               </motion.div>
             ))}
+          </motion.div>
 
+          <motion.div className="app__skills-exp">
+                {experience?.works?.map((work)=>(
+                  <>
+                    <motion.div
+                      whileInView={{opacity: [0,1]}}
+                      transition={{duration: 0.5}}
+                      className="app__skill-exp-work"
+                      data-tip 
+                      data-for= {work.name}
+                      key={work.name}
+                    >
+                        <h4 className="bold-text">{work.name}</h4>
+                        <p className="p-text">{work.company}</p>
+                    </motion.div>
+
+                    <reactTooltip
+                      id={work.name}
+                      effect="solid"
+                      arrowColor="#fff"
+                      className="skills-tootTip"
+                    >
+                      {work.desc}
+                    </reactTooltip>
+                  </>
+                ))}
           </motion.div>
 
         </div>
