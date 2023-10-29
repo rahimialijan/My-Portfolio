@@ -36,9 +36,11 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import mylogo1 from "../assets/mylogo1.png";
 import mylogo from "../assets/mylogo.png";
+import ruby from "../assets/ruby.png";
 
 export default {
   mylogo,
+  ruby,
   mylogo1,
   email,
   mobile,
