@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { Tooltip as ReactTooltip } from 'react-tooltip';
+import { Tooltip as reactTooltip } from 'react-tooltip';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -68,14 +68,14 @@ const Skills = () => {
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </motion.div>
-                    <ReactTooltip
+                    <reactTooltip
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      {work.desc}
-                    </ReactTooltip>
+                     <strong>Skills:</strong> {work.desc}
+                    </reactTooltip>
                   </>
                 ))}
               </motion.div>
