@@ -22,8 +22,7 @@
 
 # 📖 [My-Portfolio] <a name="about-project"></a>
 
-> **[My-Portfolio]** is a project to showcase all of my recent work. It will maitain the information and history of my recent projects,
- the brave informatin about me, and the link to my resume. it will also provide the context to be in contact with the clients.
+> **[My-Portfolio]** is a full-stack application that combines React, SCSS, and Motion Frame on the frontend, and leverages Sanity Studio for the backend. This project serves as a full-stack solution to showcase my recent work, skills, and experiences, maintaining a comprehensive repository for the details and history of my recent projects
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,8 +31,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">React/Redux</a></li>
-    <li><a href="#">CSS</a></li>
+    <li><a href="#">React</a></li>
+    <li><a href="#">SCSS</a></li>
+    <li><a href="#">JavaScript</a></li>
     <li><a href="#">Frame Motion</a></li>
   </ul>
 </details>
@@ -41,14 +41,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="#"></a></li>
+    <li><a href="#">Sanity Studio (Database and Backend)</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="#"></a></li>
+    <li><a href="#">Sanity</a></li>
   </ul>
 </details>
 
@@ -63,7 +63,7 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+- **[Live Demo](https://alijanportfolio.netlify.app/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,15 +87,20 @@ Clone this repository to your desired folder:
 
 Use the following Commands:
   - cd your-desired-folder
-  - git clone git@github.com:rahimialijan/Portfolio-Mobile.git
-
+  - git clone https://github.com/rahimialijan/My-Portfolio.git
+  - cd My-Portfolio
+  - git checkout project-setup
 
 
 
 ### Install
 
 Install this project with:
-  - You can deploy it with your hosting provider of your choise.
+  ```sh
+
+  npm i
+
+ ```
 
 
 ### Usage
@@ -105,11 +110,13 @@ Install this project with:
 - to maitain connection with visitors.
 
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using:
-- Free deployment services like GitHub pages.
-- Any deployment services of your choice.
+You can deploy this project using **[Render](https://www.netlify.com/)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +159,7 @@ If you like this project, you are most welcome to Contribute.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank all of My colleagues and supporters.
+I would like to thank Microverse Team & JavaScript Mastery Youtube channel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
