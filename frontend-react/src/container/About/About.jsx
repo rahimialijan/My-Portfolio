@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { AppWrap, MotionWrap} from "../../wrapper";
-import "./About.scss";
-import { urlFor, client } from "../../client";
+import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+import { AppWrap, MotionWrap } from '../../wrapper';
+import './About.scss';
+import { urlFor, client } from '../../client';
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -17,15 +17,20 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Devs</span>
-        <br /> means <span>Good Business</span>
+        I Know that
+        {' '}
+        <span>Good Devs</span>
+        <br />
+        {' '}
+        means
+        <span>Good Business</span>
       </h2>
       <div className="app__profile">
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
+            transition={{ duration: 0.5, type: 'tween' }}
             className="app__profile-item"
             key={about.title + index}
           >
