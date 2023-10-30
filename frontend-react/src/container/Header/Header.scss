@@ -57,7 +57,7 @@
 
   .badge-cmp,
   .tag-cmp {
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     border: var(--white-color);
     border-radius: 15px;
     flex-direction: row;
@@ -69,10 +69,18 @@
     flex-direction: column;
     margin-top: 3rem;
 
-    p {
-      width: 100%;
+    .p-web{
       text-transform: uppercase;
-      text-align: right;
+      font-weight: 600;
+      font-size: 1rem;
+      text-align:center;
+      width: 100%;
+    }
+
+    .p-desc {
+      width: 100%;
+      font-size: 0.9rem;
+      text-align:justify;
     }
   }
 

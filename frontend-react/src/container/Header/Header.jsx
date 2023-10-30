@@ -30,8 +30,8 @@ const Header = () => (
         </div>
       </div>
       <div className="tag-cmp app__flex">
-        <p className="p-text">Web Developer</p>
-        <p className="p-text">Freelancer</p>
+        <p className="p-text p-web">Web Developer & Freelancer</p>
+        <p className="p-text p-desc">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       </div>
     </motion.div>
 

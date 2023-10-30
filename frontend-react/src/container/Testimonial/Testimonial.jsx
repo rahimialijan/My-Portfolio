@@ -38,7 +38,7 @@ const Testimonial = () => {
               alt={testimonials[currentIndex].name}
             />
             <div className="app__testimonial-content">
-              <p className="p-text">{testimonials[currentIndex].feedback}</p>
+            <p className="p-text">{testimonials[currentIndex].feedback} <a href="https://www.linkedin.com/in/alijan-rahimi-18389ab3/details/recommendations/?detailScreenTabIndex=0">more</a></p>
               <div>
                 <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
                 <h5 className="p-text">{testimonials[currentIndex].company}</h5>
