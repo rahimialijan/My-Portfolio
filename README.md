@@ -22,7 +22,7 @@
 
 # 📖 [My-Portfolio] <a name="about-project"></a>
 
-> **[My-Portfolio]** is a full-stack application that combines React, SCSS, and Motion Frame on the frontend, and leverages Sanity Studio for the backend. This project serves as a full-stack solution to showcase my recent work, skills, and experiences, maintaining a comprehensive repository for the details and history of my recent projects
+> This is a full-stack application that combines React, SCSS, and Motion Frame on the frontend while leveraging Sanity Studio for the backend. This project serves as a comprehensive showcase of my recent work, skills, and experiences, providing a detailed repository for the history of my recent projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,7 +34,7 @@
     <li><a href="#">React</a></li>
     <li><a href="#">SCSS</a></li>
     <li><a href="#">JavaScript</a></li>
-    <li><a href="#">Frame Motion</a></li>
+    <li><a href="#">Motion Frame</a></li>
   </ul>
 </details>
 
@@ -122,7 +122,7 @@ You can deploy this project using **[Netlify](https://www.netlify.com/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 
 👤 **Alijan Rahimi**
@@ -162,6 +162,6 @@ I would like to thank Microverse Team & JavaScript Mastery Youtube channel
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
