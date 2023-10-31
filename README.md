@@ -62,7 +62,7 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- **[Live Demo](https://alijanportfolio.netlify.app/)**
+- **[Live Demo](https://alijanrahimi.netlify.app/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
