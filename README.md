@@ -52,7 +52,6 @@
   </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
 - **[Represent most recent projcts]**
 - **[Represnt skills and technogies]**
@@ -76,7 +75,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-- A Nude.js installed on your local system.
+- install git on local machine
+- create a repository on local machine `my-folder`
+- A Node.js installed on your local system.
 - A browser of you choice.
 - A text editor of your choice.
 
@@ -91,8 +92,6 @@ Use the following Commands:
   - cd My-Portfolio
   - git checkout project-setup
 
-
-
 ### Install
 
 Install this project with:
@@ -102,24 +101,26 @@ Install this project with:
 
  ```
 
-
 ### Usage
+To run the project, execute the following command:
+```sh
+  sanity start
+  npm run start
 
-- To demonstrate your skills & knowlege of technoly.
-- To represent the most recent project.
-- to maitain connection with visitors.
+```
+### Run tests <a name="test"></a>
 
+```sh
+
+  npm run test
+
+```
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using **[Render](https://www.netlify.com/)**
+You can deploy this project using **[Netlify](https://www.netlify.com/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -135,7 +136,7 @@ You can deploy this project using **[Render](https://www.netlify.com/)**
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[Responsiveness with the all kind of laptop and handheld devices viewport]**
+- [ ] **[Integrating the elements of work experience, skillsets, and endorsements]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,23 +149,16 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, you are most welcome to Contribute.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
 I would like to thank Microverse Team & JavaScript Mastery Youtube channel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
