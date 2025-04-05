@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import { Tooltip as reactTooltip } from 'react-tooltip';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -13,15 +12,37 @@ const Skills = () => {
   useEffect(() => {
     const query = '*[_type=="experiences"]';
     const skillsQuery = '*[_type=="skills"]';
+    
     client.fetch(query).then((data) => {
-      setExperience(data);
+      // Sort experiences by extracting and comparing the end year
+      const sortedExperiences = data.sort((a, b) => {
+        // Function to get the end year from a year string
+        const getEndYear = (yearStr) => {
+          if (yearStr.includes('-')) {
+            const years = yearStr.split('-');
+            // If second part is "Present", return a very high number
+            if (years[1].toLowerCase() === 'present') {
+              return 9999;
+            }
+            return parseInt(years[1]);
+          }
+          return parseInt(yearStr);
+        };
+
+        const endYearA = getEndYear(a.year);
+        const endYearB = getEndYear(b.year);
+        return endYearB - endYearA;
+      });
+      setExperience(sortedExperiences);
     });
+    
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
     });
   }, []);
 
   return (
+    // ... rest of your component remains the same
     <>
       <h2 className="head-text">Skills & Experience</h2>
 
