@@ -156,7 +156,7 @@ If you like this project, you are most welcome to Contribute.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse Team & JavaScript Mastery Youtube channel
+I would like to thank Microverse Team & JavaScript Mastery Youtube Channel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
